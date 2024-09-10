@@ -3,7 +3,7 @@ function addListItem() {
 }
 document.getElementsById("keyInput").addEventListener("keydown", function(e) {
     var keyCode = e.keyCode || e.which;
-    if(keyCode == 13) {
+    if(keyCode === 13) {
         addListItem();
     }
 }, false);
